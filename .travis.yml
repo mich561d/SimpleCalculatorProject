@@ -7,3 +7,7 @@ cache:
 
 script:
   - mvn verify -Pdeployremote
+  
+ after_success:
+  - mvn tomcat7:deploy -Pdeployremote 
+
