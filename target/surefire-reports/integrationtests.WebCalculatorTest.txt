@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: integrationtests.WebCalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 8.375 sec <<< FAILURE!
-testAdd(integrationtests.WebCalculatorTest)  Time elapsed: 1.094 sec  <<< ERROR!
+Tests run: 9, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 9.286 sec <<< FAILURE!
+testAdd(integrationtests.WebCalculatorTest)  Time elapsed: 1.132 sec  <<< ERROR!
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
@@ -56,7 +56,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:104)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-testDiv(integrationtests.WebCalculatorTest)  Time elapsed: 1.015 sec  <<< ERROR!
+testDiv(integrationtests.WebCalculatorTest)  Time elapsed: 0.996 sec  <<< ERROR!
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
@@ -110,7 +110,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:104)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-testMul(integrationtests.WebCalculatorTest)  Time elapsed: 1.031 sec  <<< ERROR!
+testMul(integrationtests.WebCalculatorTest)  Time elapsed: 1.002 sec  <<< ERROR!
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
@@ -164,7 +164,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:104)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-testSub(integrationtests.WebCalculatorTest)  Time elapsed: 1.032 sec  <<< ERROR!
+testSub(integrationtests.WebCalculatorTest)  Time elapsed: 1.002 sec  <<< ERROR!
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
